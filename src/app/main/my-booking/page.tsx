@@ -58,8 +58,6 @@ const BookingPage = () => {
         }
     };
 
-    console.log(allTicketBooking?.data?.result, "ini cees");
-
     return (
         <main>
             <Navbar />
