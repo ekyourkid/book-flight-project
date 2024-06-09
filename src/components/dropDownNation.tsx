@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 
-const DropDownNation = ({ title }) => {
+const DropDownNation = ({ title }: { title: string }) => {
     const LIST_NATIONALITY = [
         {
             Nation: "Indonesia",

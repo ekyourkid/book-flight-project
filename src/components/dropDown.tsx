@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 
-const DropDownGender = ({ title }) => {
+const DropDownGender = ({ title }: { title: string }) => {
     const LIST_GENDER = [
         {
             Gender: "Men",

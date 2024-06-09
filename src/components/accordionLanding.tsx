@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { IoChevronForwardSharp, IoChevronDown } from "react-icons/io5";
 
-const AccordionLanding = ({ label }) => {
+const AccordionLanding = ({ label }: { label: string }) => {
     const [accordionOpen, setAccordionOpen] = useState(false);
     return (
         <div className="py-2">

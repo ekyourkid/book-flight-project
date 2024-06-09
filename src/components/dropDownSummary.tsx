@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 
-const DropDownSummary = ({ title }) => {
+const DropDownSummary = ({ title }: { title: string }) => {
     const LIST_SUMMARY = [
         {
             Summary: "Pro",

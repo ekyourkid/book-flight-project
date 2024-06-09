@@ -9,7 +9,7 @@ import AccordionLanding2 from "./accordionLanding2";
 import AccordionLanding3 from "./accordionLanding3";
 import { GoArrowRight } from "react-icons/go";
 
-const DropDownLanding = ({ title }) => {
+const DropDownLanding = ({ title }: { title: string }) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="relative flex flex-col rounded">

@@ -7,7 +7,7 @@ const Input = ({
     defaultValue = "",
     register,
     fieldName,
-}) => {
+}: any) => {
     return (
         <div className="w-full mt-52 relative">
             <div className="w-full">

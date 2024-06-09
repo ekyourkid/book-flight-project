@@ -2,7 +2,17 @@
 import React, { useState } from "react";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa";
 
-const InputPassword = ({ defaultValue = "", register, fieldName }) => {
+interface IPropsInputPassword {
+    defaultValue: string;
+    register: any;
+    fieldName: string;
+}
+
+const InputPassword: React.FC<IPropsInputPassword> = ({
+    defaultValue = "",
+    register,
+    fieldName,
+}) => {
     const [open, setOpen] = useState(false);
     // handle toggle
     const toggle = () => {

@@ -19,7 +19,7 @@ const AccordionBookingDetail = ({
     toLatitude,
     toLongtitude,
     toLocation,
-}) => {
+}: any) => {
     const [accordionOpen, setAccordionOpen] = useState(false);
     return (
         <div className=" w-full">
