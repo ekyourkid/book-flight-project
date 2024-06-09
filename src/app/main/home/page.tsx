@@ -188,7 +188,7 @@ const HomePage = () => {
                     </div>
 
                     {isLoading === false && !allFlights?.data?.length && (
-                        <div>GAADA DATA</div>
+                        <div>data not found</div>
                     )}
                     {isLoading ? (
                         <div className="w-full h-60 border border-gray-200 flex items-center justify-center rounded-md bg-gray-100 animate-pulse">

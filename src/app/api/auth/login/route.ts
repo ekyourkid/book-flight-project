@@ -2,6 +2,7 @@ import axios from "axios";
 import { cookies } from "next/headers";
 
 const apiUrl = process.env.apiUrl;
+console.log(apiUrl, "XXXXXXXXXXxx");
 export async function POST(req: Request) {
     const data = await req.json();
     try {

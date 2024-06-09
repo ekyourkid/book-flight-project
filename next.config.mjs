@@ -30,7 +30,7 @@ const nextConfig = {
         ],
     },
     publicRuntimeConfig: {
-        apiUrl: process.env.BASE_URL,
+        apiUrl: process.env.NEXT_BASE_URL,
     },
     env: {
         apiUrl: process.env.API_BASE_URL,
