@@ -75,6 +75,7 @@ const RegisterPage = () => {
                         <InputPassword
                             register={register}
                             fieldName={"password"}
+                            defaultValue={""}
                         />
                         <button
                             type="submit"

@@ -67,6 +67,7 @@ const LoginPage = () => {
                         />
                         <InputPassword
                             register={register}
+                            defaultValue={""}
                             fieldName={"password"}
                         />
                         <button
