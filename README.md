@@ -35,9 +35,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-Open [https://book-flight-project-fpk8ndszk-ekyourkids-projects.vercel.app/](https://) with your browser to see the result.
+Open [book-flight-project.vercel.app](https://book-flight-project.vercel.app/) with your browser to see the result.
 
-## Getting Started
+![1718000864240](images/README/1718000864240.png)
+
+# Getting Started
 
 First, run the development server:
 
